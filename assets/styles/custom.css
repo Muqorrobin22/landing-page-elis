@@ -129,7 +129,8 @@ button.my-custom-form-btn:hover {
   margin-top: 4.8rem;
   margin-bottom: 9rem;
   max-height: 100vh;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   scrollbar-color: var(--color-main-brand) var(--color-grey);
 }
 

@@ -2,6 +2,7 @@
   --color-main-brand: #3b40c4;
   --color-carbon: #374151;
   --color-grey: #f3f4f6;
+  --color-grey-2: #f0f0f0;
 }
 
 body {
@@ -128,10 +129,6 @@ button.my-custom-form-btn:hover {
 .main {
   margin-top: 4.8rem;
   margin-bottom: 9rem;
-  max-height: 100vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  scrollbar-color: var(--color-main-brand) var(--color-grey);
 }
 
 .main .main-section figure figcaption {
@@ -239,3 +236,52 @@ button.my-custom-form-btn:hover {
 }
 
 /* end - pages/register.html */
+
+/* pages/detail.html */
+
+.container.main-detail-page {
+  padding: 0 2rem;
+}
+
+.main-detail-page {
+  margin-top: 5rem;
+}
+
+.main-detail-page figure {
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.main-detail-page .info .head {
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  margin-top: -0.5rem;
+}
+
+.main-detail-page .info .detail-info {
+  margin-bottom: 1rem;
+}
+
+.main-detail-page .info .title h2 {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.main-detail-page .info .value h2 {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.main-detail-page .button-info {
+  margin-top: 2rem;
+}
+
+.button-info a.my-custom-btn.not-active {
+  background-color: var(--color-grey-2) !important;
+  color: black !important;
+}
+.button-info .col-2 {
+  margin-right: 1rem;
+}
+/* end - pages/detail.html */

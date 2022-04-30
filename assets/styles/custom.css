@@ -285,3 +285,11 @@ button.my-custom-form-btn:hover {
   margin-right: 1rem;
 }
 /* end - pages/detail.html */
+
+/* Modal */
+
+.btn-modal {
+  width: 100% !important;
+}
+
+/* end btn modal */
